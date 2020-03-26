@@ -3,7 +3,7 @@
 ![](https://github.com/kubesphere/console/workflows/Main/badge.svg)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-KubeSphere Console is the web-based UI for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters.
+Rocket Kubernetes Services is the web-based UI for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters.
 
 ![KubeSphere Console](docs/images/dashboard-ui.png)
 
