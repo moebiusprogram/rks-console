@@ -9,7 +9,7 @@ Rocket Kubernetes Services  - Control Panel - is the web-based UI for [RKS](http
 
 ## Getting Started
 
-A KubeSphere cluster is required before getting started.
+A RKS cluster is required before getting started.
 
 Read [Installation](https://github.com/kubesphere/kubesphere#installation) guide to install a cluster.
 
