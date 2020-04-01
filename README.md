@@ -5,7 +5,7 @@
 
 Rocket Kubernetes Services  - Control Panel - is the web-based UI for [RKS](https://github.com/occentus/rks) clusters.
 
-![KubeSphere Console](docs/images/dashboard-ui.png)
+![RKS Console](docs/images/dashboard-ui.png)
 
 ## Getting Started
 
