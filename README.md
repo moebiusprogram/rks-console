@@ -21,7 +21,7 @@ Features Map:
 
 Make sure the following software is installed and added to the \$PATH variable:
 
-- A KubeSphere cluster ([Installation](https://github.com/kubesphere/kubesphere#installation))
+- A RKS cluster ([Installation](https://github.com/kubesphere/kubesphere#installation))
 - Node.js 8+ ([installation with nvm](https://github.com/creationix/nvm#usage))
 - Yarn 1.19.1+
 
