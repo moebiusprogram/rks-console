@@ -3,17 +3,13 @@
 ![](https://github.com/kubesphere/console/workflows/Main/badge.svg)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Rocket Kubernetes Services is the web-based UI for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters.
+Rocket Kubernetes Services  - Control Panel - is the web-based UI for [RKS](https://github.com/occentus/rks) clusters.
 
-![KubeSphere Console](docs/images/dashboard-ui.png)
+![RKS Console](docs/images/dashboard-ui.png)
 
 ## Getting Started
 
-A KubeSphere cluster is required before getting started.
-
-Read [Installation](https://github.com/kubesphere/kubesphere#installation) guide to install a cluster.
-
-Read [the guide](https://github.com/kubesphere/kubesphere#to-start-using-kubesphere) to start using KubeSphere.
+A RKS cluster is required before getting started.
 
 Features Map:
 
@@ -25,7 +21,7 @@ Features Map:
 
 Make sure the following software is installed and added to the \$PATH variable:
 
-- A KubeSphere cluster ([Installation](https://github.com/kubesphere/kubesphere#installation))
+- A RKS cluster ([Installation](https://github.com/kubesphere/kubesphere#installation))
 - Node.js 8+ ([installation with nvm](https://github.com/creationix/nvm#usage))
 - Yarn 1.19.1+
 
