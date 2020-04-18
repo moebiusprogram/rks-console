@@ -58,13 +58,14 @@ svg {
 
 .logo img {
   width: 180px;
-  height: 40px;
+  height: 100px;
+  display: block;
 }
 
 .login {
   position: relative;
   width: 320px;
-  margin: 140px auto 40px;
+  margin: 199px auto 40px;
   padding: 20px;
   background-color: #fff;
   border-radius: 4px;
