@@ -20,7 +20,7 @@ import { observable, action, computed } from 'mobx'
 import { get, includes, isString } from 'lodash'
 import cookie from 'utils/cookie'
 
-import logSVG from 'assets/logo.svg'
+import logSVG from 'assets/RKS-LOGO.png'
 
 import Base from './index'
 
