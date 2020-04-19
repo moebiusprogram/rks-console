@@ -50,7 +50,7 @@ export default class AboutModal extends Component {
           </div>
           <p>{t('KS_DESCRIPTION')}</p>
           <strong>
-            KubeSphere {t('Version')} : {version.kubesphere}
+            Rocket Kubernetes Services v1.0
           </strong>
         </div>
       </Modal>

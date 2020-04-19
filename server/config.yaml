@@ -47,7 +47,7 @@ client:
   documents:
     url: https://rocketkubernetes.com/doc
     api: https://rocketkubernetes.com/doc
-    version: v2.1
+    version: v1.1
 
   # current support lanaguages
   supportLangs:
