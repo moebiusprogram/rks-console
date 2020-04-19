@@ -41,12 +41,12 @@ svg {
 
 ::selection {
   color: #fff;
-  background: #369a6a;
+  background: #7dba00;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #369a6a;
+  background: #7dba00;
 }
 
 .logo {
