@@ -16,7 +16,11 @@
       @include TypographyParagraph();
       margin-bottom: 12px;
     }
-  
+    
+    div {
+      text-align:center;
+    }
+
     img {
       width: 200px;
       height: 140px;

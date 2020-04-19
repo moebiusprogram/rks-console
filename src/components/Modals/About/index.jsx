@@ -35,7 +35,7 @@ export default class AboutModal extends Component {
   }
 
   render() {
-    const { issueUrl, reposUrl, version, slackUrl } = globals.config
+
     return (
       <Modal
         bodyClassName={styles.body}
@@ -45,7 +45,7 @@ export default class AboutModal extends Component {
         {...this.props}
       >
         <div className={styles.describtion}>
-          <div style="text-align:center">
+          <div>
             <img src="/assets/RKS-LOGO.png" alt="" />
           </div>
           <p>{t('KS_DESCRIPTION')}</p>
