@@ -1,4 +1,4 @@
-/*
+  /*
  * This file is part of KubeSphere Console.
  * Copyright (C) 2019 The KubeSphere Console Authors.
  *
@@ -125,13 +125,13 @@ export default class S2IForm extends React.Component {
   }
 
   handleImageTemplateChange = ({ environment, docUrl }) => {
-    const lang = get(globals, 'user.lang', 'zh')
+    const lang = get(globals, 'user.lang', 'en')
 
     const EnvOptions = (environment || []).map(env => {
       env.label = env.key
       const descArr = (env.description || '').split('. ')
       const desc =
-        lang === 'zh'
+        lang === 'en'
           ? get(descArr, '1', env.description)
           : get(descArr, '0', env.description)
       env.label = `${env.key}  (${desc})`

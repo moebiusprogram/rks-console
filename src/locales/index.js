@@ -16,10 +16,10 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import zhModules from './zh'
+import esModules from './es'
 import enModules from './en'
 
 export default {
-  zh: Object.assign({}, ...zhModules.map(item => item.default)),
+  es: Object.assign({}, ...esModules.map(item => item.default)),
   en: Object.assign({}, ...enModules.map(item => item.default)),
 }

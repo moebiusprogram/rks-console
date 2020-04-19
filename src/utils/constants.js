@@ -400,7 +400,7 @@ export const STRATEGIES_PREFIX = {
 }
 
 export const LANG_MAP = {
-  zh: 'zh-CN',
+  es: 'es-ES',
   en: 'en',
 }
 

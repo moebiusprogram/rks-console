@@ -368,14 +368,14 @@ it('getBrowserLang', () => {
 
   languageGetter.mockReturnValue('en-US')
   expect(getBrowserLang()).toBe('en')
-  languageGetter.mockReturnValue('zh-CN')
-  expect(getBrowserLang()).toBe('zh')
+  languageGetter.mockReturnValue('es-ES')
+  expect(getBrowserLang()).toBe('es')
   languageGetter.mockReturnValue('de')
   expect(getBrowserLang()).toBe('en')
 
   languageGetter.mockReturnValue(undefined)
-  window.navigator.browserLanguage = 'zh-CN'
-  expect(getBrowserLang()).toBe('zh')
+  window.navigator.browserLanguage = 'es-ES'
+  expect(getBrowserLang()).toBe('es')
 })
 
 it('toPromise', async () => {

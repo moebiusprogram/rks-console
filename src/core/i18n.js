@@ -37,6 +37,7 @@ const init = () => {
     cookie('lang', lang)
   }
 
+  /*
   if (lang === 'zh') {
     moment.locale('zh', {
       relativeTime: {
@@ -56,7 +57,7 @@ const init = () => {
         future: '在%s后',
       },
     })
-  }
+  }*/
 
   return { locales }
 }

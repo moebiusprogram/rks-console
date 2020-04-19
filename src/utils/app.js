@@ -23,7 +23,7 @@ import { STATUS_TRANSFER_MAP } from 'configs/openpitrix/version'
 import { saveAs } from 'file-saver'
 
 export const transferAppStatus = status => {
-  if (cookie('lang') === 'zh') {
+  if (cookie('lang') === 'es') {
     if (status === 'draft') {
       return 'developing'
     }
@@ -33,7 +33,7 @@ export const transferAppStatus = status => {
 }
 
 export const transferVersionStatus = status => {
-  if (cookie('lang') === 'zh') {
+  if (cookie('lang') === 'es') {
     return STATUS_TRANSFER_MAP[status] || status
   }
   return status
