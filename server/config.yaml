@@ -34,19 +34,19 @@ server:
   dockerHubUrl: https://hub.docker.com
 
 client:
-  title: Rocket Kubernetes Services
+  title: Rocket Kubernetes Mission Control
 
   version:
-    rks: 2.1.0
+    kubesphere: 2.1.0
 
   # kubesphere urls
   issueUrl: https://github.com/occentus/rks/issues/new/choose
   reposUrl: https://github.com/occentus/rks
   slackUrl: 
-  logoUrl: https://console-ae.kubesphere.io/assets/logo.svg
+  logoUrl: /assets/logo.svg
   documents:
-    url: https://kubesphere.io/docs
-    api: https://kubesphere.io/docs/v2.1/zh-CN/api-reference/api-docs/
+    url: https://rocketkubernetes.com/doc
+    api: https://rocketkubernetes.com/doc
     version: v2.1
 
   # current support lanaguages

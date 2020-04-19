@@ -1,9 +1,9 @@
-# Rocket Kubernetes Services - Control Panel -
+# Rocket Kubernetes Mission Control
 
 ![](https://github.com/kubesphere/console/workflows/Main/badge.svg)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Rocket Kubernetes Services  - Control Panel - is the web-based UI for [RKS](https://github.com/occentus/rks) clusters.
+Rocket Kubernetes Mission Control is the web-based UI for [RKS](https://github.com/occentus/rks) clusters.
 
 ![RKS Console](docs/images/dashboard-ui.png)
 
