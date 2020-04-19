@@ -45,7 +45,7 @@ export default class AboutModal extends Component {
         {...this.props}
       >
         <div className={styles.describtion}>
-          <div>
+          <div style="text-align:center">
             <img src="/assets/RKS-LOGO.png" alt="" />
           </div>
           <p>{t('KS_DESCRIPTION')}</p>
