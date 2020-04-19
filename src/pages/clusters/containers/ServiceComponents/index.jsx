@@ -46,7 +46,7 @@ export default class ServiceComponents extends React.Component {
     return this.props.match.url
   }
 
-  getColor = healthy => (healthy ? '#f5a623' : '#55bc8a')
+  getColor = healthy => (healthy ? '#f5a623' : '#7dba00')
 
   getCount = type => {
     const exceptionCount = this.store.exceptionCount

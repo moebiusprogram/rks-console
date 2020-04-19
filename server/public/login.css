@@ -162,7 +162,7 @@ svg {
 }
 
 .login-form-item input:focus {
-  border-color: #55bc8a;
+  border-color: #7dba00;
 }
 
 input::placeholder {
@@ -270,7 +270,7 @@ input::-webkit-input-placeholder {
   top: -24px;
   font-size: 12px;
   line-height: 1.67;
-  color: #55bc8a;
+  color: #7dba00;
   cursor: pointer;
 }
 

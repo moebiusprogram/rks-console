@@ -101,7 +101,7 @@ export default class Password extends React.Component {
     } else if (strength >= 6 && strength < 8) {
       return { width: '66%', backgroundColor: '#f5a623' }
     } else if (strength >= 8) {
-      return { width: '100%', backgroundColor: '#55bc8a' }
+      return { width: '100%', backgroundColor: '#7dba00' }
     }
   }
 
